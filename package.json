@@ -1,5 +1,5 @@
 {
-  "name": "custode",
+  "name": "enclave",
   "version": "1.0.0",
   "description": "Cypress orchestration framework for multitab testing and secure integration within CI/CD",
   "main": "index.js",
