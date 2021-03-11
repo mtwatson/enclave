@@ -1,0 +1,14 @@
+1. Can run Cypress tests programmatically. 
+2. Can be configured by external .json file.
+3. Can run batches of Cypress tests at a specified wave quantity (e.g. run these 10 tests 10 times)
+4. Completely linted.
+5. Completed unit tested.
+6. Cross tab communication for tests (e.g. Warden can ensure multiple Cypress instances can talk to each other while testing a single multi-tab web app)
+7. Can perform a CLI login (manual) or be fed credentials via secure encrypted file for application (secrets)
+8. Is containerized
+9. Can communicate with other Hydra instances elsewhere
+10. Can distribute work with these other Hydra instances elsewhere
+11. Can generate reports
+12. Can output reports to file
+13. Has a GUI to view reports
+14. GUI can also run more advanced functions (e.g. run tests, show status, comms with other Hydra instances, and so on)

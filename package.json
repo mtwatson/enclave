@@ -1,0 +1,30 @@
+{
+  "name": "custode",
+  "version": "1.0.0",
+  "description": "Cypress orchestration framework for multitab testing and secure integration within CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint  **/*.js",
+    "lint-fix": "./node_modules/.bin/eslint --fix **/*.js"
+  },
+  "keywords": [
+    "cypress",
+    "multitab",
+    "CI/CD",
+    "Jenkins",
+    "Gitlab",
+    "E2E",
+    "testing"
+  ],
+  "author": "Mike Watson",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^6.6.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
